@@ -127,6 +127,8 @@ dist
 
 # Stores VSCode versions used for testing VSCode extensions
 .vscode-test
+.env
+node_modules
 
 # yarn v2
 .yarn/cache
