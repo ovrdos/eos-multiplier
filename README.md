@@ -59,6 +59,9 @@ To incentivize usage and increase on-chain volume and liquidity in the EOS ecosy
 
 7. **Create a `.env` File**
    Add the following keys:
+
+   use your own credentials as values.
+
    ```env
    KEY_NAME=organizations/[org_id]/apiKeys/[key_id]
    KEY_SECRET="-----BEGIN EC PRIVATE KEY-----\n[private_key_contents]\n-----END EC PRIVATE KEY-----"
@@ -66,12 +69,12 @@ To incentivize usage and increase on-chain volume and liquidity in the EOS ecosy
    ```
    Checkout sample.env for the proper format.
 
-8. **Run the Script Once**
+9. **Run the Script Once**
    ```bash
    node sendeos.js
    ```
 
-9. **Run Multiple Times via Bash Script**
+10. **Run Multiple Times via Bash Script**
    ```bash
    ./runsendeos.sh
    ```
